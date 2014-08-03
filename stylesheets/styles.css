@@ -1,0 +1,254 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+/*variables*/
+/* line 15, ../sass/styles.scss */
+_________________________________________________________________________________
+_____________________________________________________________________________________________
+.assets {
+  color: #e84c3d !important;
+}
+
+/* line 19, ../sass/styles.scss */
+.color-prime {
+  color: #202628;
+}
+
+/* line 25, ../sass/styles.scss */
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* line 30, ../sass/styles.scss */
+body {
+  font-family: "Fjalla One", sans-serif;
+  color: #767c7e;
+  background-color: #fff;
+}
+
+/* line 38, ../sass/styles.scss */
+p {
+  font-family: 'lato', sans-serif;
+  font-size: 14px;
+}
+
+/* line 43, ../sass/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #202628;
+}
+
+/* line 47, ../sass/styles.scss */
+.padmain, #sq {
+  padding-top: 80px;
+}
+
+/* line 51, ../sass/styles.scss */
+.bot, #sq {
+  padding-bottom: 70px;
+}
+
+/* line 54, ../sass/styles.scss */
+.custom {
+  border: none;
+  height: 5em;
+}
+
+/* line 59, ../sass/styles.scss */
+li.active {
+  height: 5em;
+}
+
+/* line 64, ../sass/styles.scss */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  height: 100%;
+}
+
+/* line 65, ../sass/styles.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  height: 5em;
+}
+
+/* line 67, ../sass/styles.scss */
+.brand {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* line 72, ../sass/styles.scss */
+a.brand, a.nav {
+  line-height: 2.75;
+}
+
+/* line 76, ../sass/styles.scss */
+.main, .cbg {
+  background-image: url(../images/bg.jpg);
+  height: 35em;
+  width: 100%;
+}
+
+/* line 83, ../sass/styles.scss */
+h1.brand {
+  font-size: 31px;
+  margin-top: 380px;
+  font-weight: bold;
+  letter-spacing: 1;
+}
+
+/* line 90, ../sass/styles.scss */
+.cusr {
+  background-color: #eaeaea;
+  /*height: 280px;*/
+}
+
+/* line 95, ../sass/styles.scss */
+.hei {
+  background-color: #fff;
+}
+
+/* line 99, ../sass/styles.scss */
+footer {
+  background-color: #202628;
+  height: 200px;
+}
+
+/* line 106, ../sass/styles.scss */
+.foot li {
+  display: inline-block;
+  float: left;
+  padding-left: 25px;
+}
+/* line 110, ../sass/styles.scss */
+.foot li a {
+  color: #fff;
+}
+
+/* line 117, ../sass/styles.scss */
+.circle {
+  height: 70px;
+  background-color: #e84c3d;
+  width: 70px;
+  border-radius: 35px;
+  margin-top: 10px;
+}
+
+/* line 126, ../sass/styles.scss */
+p a {
+  color: #e84c3d;
+}
+
+/* line 131, ../sass/styles.scss */
+h3.col-md-3 {
+  line-height: 1.5;
+}
+
+/* line 135, ../sass/styles.scss */
+i.fa {
+  font-size: 32px;
+  color: #fff;
+  vertical-align: middle;
+  margin-top: 19px;
+  margin-left: 5px;
+}
+
+/* line 143, ../sass/styles.scss */
+.n {
+  border-bottom: 100px;
+}
+
+/* line 147, ../sass/styles.scss */
+hr.col-md-8 {
+  color: #000;
+}
+
+/* line 151, ../sass/styles.scss */
+h4 {
+  color: #e84c3d;
+  font-size: 20px;
+}
+
+/* line 156, ../sass/styles.scss */
+row.button {
+  background-color: #e84c3d !important;
+}
+
+/* line 160, ../sass/styles.scss */
+.btn-warning {
+  background-color: #e84c3d !important;
+  border-radius: 16px !important;
+  border: none;
+  width: 70px;
+  margin-top: -60px;
+}
+
+/* line 168, ../sass/styles.scss */
+.cbg {
+  float: right;
+  width: 354px;
+  height: 354px;
+  border-radius: 177px;
+  margin-top: -180px;
+}
+
+/* line 178, ../sass/styles.scss */
+#sq {
+  background-color: #e84c3d;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+/* line 186, ../sass/styles.scss */
+.c {
+  background-color: #202628 !important;
+  margin-left: 2em;
+}
+
+/* line 192, ../sass/styles.scss */
+.form-control {
+  padding-right: 10em !important;
+  border-radius: 10em;
+}
+
+/* line 197, ../sass/styles.scss */
+.btn-defaul {
+  padding-right: 2em;
+  border-radius: 10em;
+  background-color: #202628;
+  color: #fff;
+  margin-left: 1em;
+  height: 32px;
+}
+
+/* line 206, ../sass/styles.scss */
+.fa-arrow-right {
+  color: #fff;
+  font-size: 15px !important;
+  margin-top: -5px !important;
+}
+
+/* line 212, ../sass/styles.scss */
+h3.hei {
+  color: #fff;
+}
+
+/* line 216, ../sass/styles.scss */
+.social {
+  float: right;
+  display: inline-block;
+  list-style: none;
+  height: 40px !important;
+}
+
+/* line 223, ../sass/styles.scss */
+.soc {
+  height: 40px;
+  background-color: #e84c3d;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 40px;
+  float: left;
+  list-style: none;
+}
+
+/* line 234, ../sass/styles.scss */
+li a {
+  padding-left: 5px;
+}

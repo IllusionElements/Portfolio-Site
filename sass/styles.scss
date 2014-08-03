@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+/*variables*/
+
+$font:'Fjalla One', sans-serif;
+$color-prime: #202628; //priamry header color 
+$assets: #e84c3d; //this indicated the colors for the main assets of the documents e.g. hovers, arrows, items etc...
+
+_________________________________________________________________________________
+
+_____________________________________________________________________________________________
+
+/*font colors*/
+
+.assets {
+	color: $assets !important; 
+}
+
+.color-prime {
+	color: $color-prime;
+}
+
+
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+body {
+	font-family: $font;
+	color: #767c7e;
+	background-color: #fff;
+
+
+}
+
+p {
+	font-family: 'lato', sans-serif;
+	font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: $color-prime;
+}
+
+.padmain {
+	padding-top:80px;
+	
+}
+.bot {
+	padding-bottom: 70px;
+}
+.custom {
+	border: none;
+	height: 5em;
+}
+
+li.active {
+	height: 5em;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus { height: 100%;} 
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {height: 5em;}
+
+.brand {
+	color: #fff;
+	font-size: 25px;
+}
+
+a.brand, a.nav {
+	line-height: 2.75	;
+}
+
+.main {
+	background-image: url(../images/bg.jpg);
+	height: 35em;
+	width: 100%;
+}
+
+
+h1.brand {
+	font-size: 31px;
+	margin-top: 380px;
+	font-weight: bold;
+	letter-spacing: 1;
+}
+
+.cusr {
+	background-color: #eaeaea;
+	/*height: 280px;*/
+}
+
+.hei {
+	background-color: #fff;
+}
+
+footer {
+	background-color: $color-prime;
+	height:200px;
+
+}
+
+.foot {
+	li {
+	display: inline-block;
+	float: left;
+	padding-left: 25px;
+		a {
+			color:#fff;
+			
+		}
+	}
+}
+
+.circle {
+	height:70px;
+	background-color:$assets;
+	width:70px;
+	border-radius: 35px;
+	margin-top: 10px;
+}
+
+p {
+	a {
+		color: $assets;
+	}
+}
+
+h3.col-md-3 {
+	line-height: 1.5;
+}
+
+i.fa {
+	font-size: 32px;
+	color: #fff;
+	vertical-align: middle;
+	margin-top: 19px;
+	margin-left: 5px;
+}
+
+.n {
+	border-bottom:100px; 
+}
+
+hr.col-md-8 {
+	color: #000;
+}
+
+h4 {
+	color: $assets;
+	font-size: 20px;
+}
+
+row.button {
+	background-color: $assets !important;
+}
+
+.btn-warning {
+	background-color: $assets !important;
+	border-radius: 16px !important;
+	border: none;
+	width: 70px;
+	margin-top: -60px;
+}
+
+.cbg {
+	@extend .main;
+	float:right;
+	width:354px;
+	height:354px;
+	border-radius:177px;
+	margin-top:-180px;
+}
+
+
+#sq {
+	background-color:$assets;
+	border-radius:10px;
+	@extend .padmain;
+	@extend .bot;
+	margin-top:80px;
+}
+
+.c {
+	
+	background-color:$color-prime !important;
+	margin-left:2em;
+}
+
+.form-control {
+	padding-right:10em !important;
+	border-radius: 10em;
+}
+
+.btn-defaul {
+	padding-right:2em;
+	border-radius:10em;
+	background-color:$color-prime;
+	color:#fff;
+	margin-left:1em;
+	height:32px;
+}
+
+.fa-arrow-right {
+	color: #fff;
+	font-size:15px !important;
+	margin-top:-5px !important;
+}
+
+h3.hei {
+	color:#fff;
+}
+
+.social {
+	float: right;
+	display:inline-block;
+	list-style:none;
+	height:40px !important;
+}
+
+.soc {
+	height: 40px;
+	background-color: $assets;
+	margin-left: 10px;
+	border-radius: 20px;
+	width: 40px;
+	float: left;
+	list-style: none;
+}
+
+li {
+	a {
+		padding-left: 5px;
+		}
+	}
